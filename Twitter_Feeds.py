@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+# What will do?
+#	this program will get the tweets from 'NewIndianXpress' and 'thehindu'
+#	and write the content in to files. The format will look like
+#	ex: NewIndianXpress/<date>/<tweet_content>.txt
+#		fille contains content and correponding URL
+
 from datetime import datetime, timedelta
 import os
 import sys
